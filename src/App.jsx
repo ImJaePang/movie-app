@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" Component={Home} />
-        <Route path="/Detail" Component={Detail} />
+        <Route path="/Detail/:id" Component={Detail} />
       </Routes>
     </Router>
 
